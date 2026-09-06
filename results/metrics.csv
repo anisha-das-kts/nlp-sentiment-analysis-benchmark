@@ -1,0 +1,3 @@
+Model,Preparation Time (seconds),Training Time (seconds),Preparation + Training Time (seconds)
+Logistic Regression,0.0,2.886396199995943,2.886396199995943
+LSTM,0.5604240999964532,530.5663440999997,531.1267681999961

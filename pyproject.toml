@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nlp-sentiment-analysis-benchmark"
+version = "1.0.0"
+description = "Benchmarking traditional ML, LSTM deep learning, and VADER for sentiment analysis."
+requires-python = ">=3.12"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
