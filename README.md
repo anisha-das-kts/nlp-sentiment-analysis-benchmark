@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NLP Sentiment Analysis Benchmark
 
 A reproducible NLP benchmarking project comparing three approaches to binary sentiment analysis on the **NLTK Movie Reviews dataset**:
