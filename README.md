@@ -141,7 +141,7 @@ nlp-sentiment-analysis-benchmark/
 ├── .gitignore
 │
 ├── notebooks/
-│   └── NLP-sentiment_analysis_benchmark.ipynb
+│   └── NLP_sentiment_analysis_benchmark.ipynb
 │
 ├── src/
 │   ├── __init__.py
@@ -234,7 +234,7 @@ python scripts/predict.py "I absolutely loved this movie!"
 ### 8. Open the notebook
 
 ```powershell
-jupyter notebook notebooks/sentiment_analysis_benchmark.ipynb
+jupyter notebook notebooks/NLP_sentiment_analysis_benchmark.ipynb
 ```
 
 The notebook downloads the required NLTK resources automatically.
