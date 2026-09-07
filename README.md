@@ -129,39 +129,51 @@ Generated figures are stored in `results/figures/`:
 - `inference_latency.png`
 - `lstm_training_validation_loss.png`
 
-## Repository Structure
+## Project Repository Structure
 
 ```text
 nlp-sentiment-analysis-benchmark/
+│
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
 ├── pyproject.toml
 ├── .gitignore
+│
 ├── notebooks/
-│   └── sentiment_analysis_benchmark.ipynb
+│   └── NLP-sentiment_analysis_benchmark.ipynb
+│
 ├── src/
 │   ├── __init__.py
 │   ├── preprocessing.py
-│   ├── traditional_ml.py
 │   ├── lstm_model.py
-│   ├── vader.py
 │   ├── evaluation.py
-│   └── utils.py
+│   ├── traditional_ml.py
+│   ├── utils.py
+│   └── vader.py
+│
 ├── scripts/
 │   ├── train.py
 │   ├── evaluate.py
 │   └── predict.py
+│
 ├── tests/
 │   ├── test_preprocessing.py
 │   ├── test_evaluation.py
 │   └── test_inference.py
+│
 ├── models/
 │   └── .gitkeep
+│
 └── results/
     ├── metrics.csv
     ├── comparison.csv
     └── figures/
+        ├── accuracy_comparison.png
+        ├── f1_comparison.png
+        ├── training_time_comparison.png
+        ├── inference_latency.png
+        └── lstm_training_validation_loss.png
 ```
 
 ## Setup
